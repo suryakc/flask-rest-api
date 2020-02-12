@@ -1,3 +1,5 @@
+The API is built using flask and flask-restful. Containerized.
+
 ## Running the API
 
 1. Install a python virtual environment library.
@@ -5,3 +7,7 @@
 3. Activate the virtual environment.
 4. pip install -r requirements.txt
 5. python3 src/app.py OR run via debugger in VS Code.
+
+## Creating a Docker image
+docker build -t flask-rest-api:py3.7.6-alpine 
+docker run -d -p 5000:5000 flask-rest-api:py3.7.6-alpine
