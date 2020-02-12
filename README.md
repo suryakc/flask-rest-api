@@ -9,5 +9,5 @@ The API is built using flask and flask-restful. Containerized.
 5. python3 src/app.py OR run via debugger in VS Code.
 
 ## Creating a Docker image
-docker build -t flask-rest-api:py3.7.6-alpine 
-docker run -d -p 5000:5000 flask-rest-api:py3.7.6-alpine
+1. docker build -t flask-rest-api:py3.7.6-alpine 
+2. docker run -d -p 5000:5000 flask-rest-api:py3.7.6-alpine
